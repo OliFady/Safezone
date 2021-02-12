@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/HomePage"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title="Home"
+    />
+    <item
+        android:id="@+id/mapsActivity"
+        android:icon="@drawable/ic_baseline_emoji_transportation_24"
+        android:title="See Places"
+        />
+    <item
+        android:id="@+id/pharmacy_search_activity"
+        android:icon="@drawable/ic_baseline_add_location_24"
+        android:title="Add Location"
+
+        />
+
+    <item
+        android:id="@+id/displayPlaces"
+        android:icon="@drawable/ic_baseline_call_end_24"
+        android:title="Call Nearby Pharmacies" />
+
+
+</menu>

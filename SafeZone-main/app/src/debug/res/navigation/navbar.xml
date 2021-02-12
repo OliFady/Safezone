@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navbar"
+    app:startDestination="@id/pharmacy_search_activity">
+
+    <activity
+        android:id="@+id/pharmacy_search_activity"
+        android:name="com.example.safezone.pharmacy_search_activity"
+        android:label="activity_pharmacy_search_activity"
+        tools:layout="@layout/activity_pharmacy_search_activity" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.safezone.MapsActivity"
+        android:label="MapsActivity" />
+    <activity
+        android:id="@+id/displayPlaces"
+        android:name="com.example.safezone.displayPlaces"
+        android:label="activity_display_places"
+        tools:layout="@layout/activity_display_places" />
+</navigation>
