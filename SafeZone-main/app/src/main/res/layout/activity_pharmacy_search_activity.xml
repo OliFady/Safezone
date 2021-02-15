@@ -1,84 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_blue"
-    tools:context=".pharmacy_search_activity">
-
-    <ImageButton
-        android:id="@+id/backButton"
-        android:layout_width="85dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/light_blue"
-        android:clickable="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back" />
-
-    <ImageView
-        android:id="@+id/coronaIcon"
-        android:layout_width="165dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/coronaicon" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-
-        android:id="@+id/constraintLayout"
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/coronaIcon"></androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:background="#EC0101"
-        android:backgroundTint="#EC0101"
-        android:id="@+id/textView2"
-        android:layout_width="272dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="48dp"
-        android:gravity="center"
-        android:text="Enter pharmacy name"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/coronaIcon" />
+    android:background="@color/Primary"
+    android:paddingTop="15dp"
+    >
 
     <EditText
-
         android:id="@+id/searchPharmacy"
         style="@style/Theme.AppCompat.Light"
-        android:layout_width="300dp"
-        android:layout_height="40sp"
-        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pharmacy Name"
         android:background="@drawable/search_input_style"
         android:drawableRight="@drawable/ic_baseline_search_24"
-        android:ems="10"
-        android:gravity="center"
-        android:textSize="16sp"
         android:inputType="textPersonName"
-        android:textColor="@color/red"
+        android:textColor="@color/Secondary"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/pharmacyRecyclerViewer"
@@ -91,7 +36,8 @@
         app:layout_constraintTop_toBottomOf="@+id/searchPharmacy" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:backgroundTint="#EC0101"
+        android:background="@color/Secondary"
+        android:backgroundTint="@color/Secondary"
         android:padding="10sp"
         android:textColor="#FFFFFF"
         android:textSize="12sp"

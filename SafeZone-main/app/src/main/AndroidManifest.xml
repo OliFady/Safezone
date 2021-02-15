@@ -41,12 +41,8 @@
         <activity
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
-        <activity android:name=".displayPlaces"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_maps"
             />
-        <activity android:name=".pharmacy_search_activity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".HomePage"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             />
@@ -58,13 +54,14 @@
             />
         <activity android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
             <meta-data
                 android:name="com.google.android.geo.API_KEY"
                 android:value="AIzaSyAOYtbu4H2WDcIq_AYbMmk_CRY2qbj4iV4" />
+
             <meta-data
                 android:name="com.google.android.gms.version"
                 android:value="@integer/google_play_services_version" />
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

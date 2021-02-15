@@ -28,11 +28,14 @@ public class loginActivity extends AppCompatActivity {
     Button loginButton;
     EditText lPhoneNumber, lPassword;
     Intent intent ;
+    Bundle bundle ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        bundle = new Bundle();
 
         lPhoneNumber = findViewById(R.id.LPhoneNumber);
         lPassword = findViewById(R.id.LPassword);
@@ -76,7 +79,7 @@ public class loginActivity extends AppCompatActivity {
                         String Status =  snapshot.child("status").getValue().toString();
                         String age = snapshot.child("age").getValue().toString();
 
-                        intent = new Intent(loginActivity.this, displayPlaces.class);
+                        intent = new Intent(loginActivity.this, HomePage.class);
                         intent.putExtra("userID",phoneNumber);
                         intent.putExtra("fName",fName);
                         intent.putExtra("lName",lName);
@@ -124,7 +127,7 @@ public class loginActivity extends AppCompatActivity {
             @Override
             public void updateDrawState(@NonNull TextPaint ds) {
                 super.updateDrawState(ds);
-                ds.setColor(Color.rgb(119, 136, 153));
+                ds.setColor(Color.rgb(228, 63, 90));
                 ds.setUnderlineText(true);
                 ds.setFakeBoldText(true);
             }

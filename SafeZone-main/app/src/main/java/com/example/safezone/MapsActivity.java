@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
-
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.location.Address;
@@ -20,7 +19,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -36,28 +34,27 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private static final String TAG ="MapsActivity" ;
-    private GoogleMap mMap;
     private static final String fineLocation = Manifest.permission.ACCESS_FINE_LOCATION;
     private static final String coarseLocation = Manifest.permission.ACCESS_COARSE_LOCATION;
-    private GoogleMap googleMap;
-    private FusedLocationProviderClient fusedLocationProviderClient;
-    private static final float defaultZoom = 15;
     private static boolean locationPermissionGranted = false;
     private static final int locationPermissionRequestCode = 1;
+    private static final float defaultZoom = 15;
+    private GoogleMap googleMap;
+    private FusedLocationProviderClient fusedLocationProviderClient;
     private EditText searchMap;
     private ImageView currentLocation ;
+    private cLocation location;
+    private  String UserId;
+    private GoogleMap mMap;
     DatabaseReference addLocationReference;
-    cLocation location;
-    String UserId;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +66,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         getLocationPermission();
 
     }
+
     @Override
     public void onMapReady(GoogleMap googleMapp) {
         Log.d(TAG, "onMapReady: map is ready");
@@ -318,41 +316,3 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 }
-/*
-
-
- private void getDeviceLocation(){
-        Log.d(TAG, "getDeviceLocation: getting Device Location");
-        fusedLocationProviderClient= LocationServices.getFusedLocationProviderClient(this);
-        try {
-            if(locationPermissionGranted){
-                Task location = fusedLocationProviderClient.getLastLocation();
-                location.addOnCompleteListener(new OnCompleteListener() {
-                    @Override
-                    public void onComplete(@NonNull Task task) {
-                        if(task.isSuccessful()){
-                            if(location!=null){
-
-                                Log.d(TAG, "onComplete: found Location");
-                                Location currentLocation = (Location) task.getResult();
-                                moveCamera(new LatLng(currentLocation.getLatitude(),currentLocation.getLongitude()),defaultZoom,"My Location");
-                                addNewLocation("TESTING_LOCATION_04", currentLocation.getLatitude() ,currentLocation.getLongitude());
-                                Toast.makeText(MapsActivity.this , "Adding current location ", Toast.LENGTH_SHORT).show();
-                            }
-
-                        }
-                        else{
-                            Log.d(TAG, "onComplete: current location is null");
-                            Toast.makeText(MapsActivity.this, "Unable To find Current Location", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-            }
-        }catch (SecurityException e){
-            Log.d(TAG, "getDeviceLocation: Security Exception :"+e.getMessage());
-
-        }
-    }
-
-*
-* */

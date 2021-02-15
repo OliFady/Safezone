@@ -1,11 +1,16 @@
+com/example/safezone/PharmacyFragment.java
+ com.example.safezone.PharmacyFragment
+ com.example.safezone.PharmacyFragment$1
+ com.example.safezone.PharmacyFragment$2
+com/example/safezone/PharmacyRecyclerView.java
+ com.example.safezone.PharmacyRecyclerView
+ com.example.safezone.PharmacyRecyclerView$1
+ com.example.safezone.PharmacyRecyclerView$PharmacyHolder
+ com.example.safezone.PharmacyRecyclerView$PharmacyHolder$1
 com/example/safezone/Pharmacy.java
  com.example.safezone.Pharmacy
-com/example/safezone/HomePage.java
- com.example.safezone.HomePage
- com.example.safezone.HomePage$1
- com.example.safezone.HomePage$2
- com.example.safezone.HomePage$3
- com.example.safezone.HomePage$4
+com/example/safezone/BuildConfig.java
+ com.example.safezone.BuildConfig
 com/example/safezone/locationList.java
  com.example.safezone.locationList
 com/example/safezone/MapsActivity.java
@@ -22,28 +27,28 @@ com/example/safezone/registerActivity.java
  com.example.safezone.registerActivity$1
 com/example/safezone/cLocation.java
  com.example.safezone.cLocation
+com/example/safezone/LocationListFragment.java
+ com.example.safezone.LocationListFragment
+ com.example.safezone.LocationListFragment$1
+ com.example.safezone.LocationListFragment$2
 com/example/safezone/loginActivity.java
  com.example.safezone.loginActivity
  com.example.safezone.loginActivity$1
  com.example.safezone.loginActivity$2
  com.example.safezone.loginActivity$3
+com/example/safezone/MainActivity.java
+ com.example.safezone.MainActivity
 com/example/safezone/locationListAdapter.java
  com.example.safezone.locationListAdapter
  com.example.safezone.locationListAdapter$locationListViewHolder
-com/example/safezone/pharmacy_search_activity.java
- com.example.safezone.pharmacy_search_activity
- com.example.safezone.pharmacy_search_activity$1
- com.example.safezone.pharmacy_search_activity$2
-com/example/safezone/displayPlaces.java
- com.example.safezone.displayPlaces
- com.example.safezone.displayPlaces$1
- com.example.safezone.displayPlaces$2
-com/example/safezone/MainActivity.java
- com.example.safezone.MainActivity
-com/example/safezone/BuildConfig.java
- com.example.safezone.BuildConfig
-com/example/safezone/PharmacyRecyclerView.java
- com.example.safezone.PharmacyRecyclerView
- com.example.safezone.PharmacyRecyclerView$1
- com.example.safezone.PharmacyRecyclerView$PharmacyHolder
- com.example.safezone.PharmacyRecyclerView$PharmacyHolder$1
+com/example/safezone/HomePage.java
+ com.example.safezone.HomePage
+ com.example.safezone.HomePage$1
+com/example/safezone/homeFragment.java
+ com.example.safezone.homeFragment
+ com.example.safezone.homeFragment$1
+ com.example.safezone.homeFragment$2
+ com.example.safezone.homeFragment$3
+ com.example.safezone.homeFragment$4
+ com.example.safezone.homeFragment$5
+ com.example.safezone.homeFragment$6

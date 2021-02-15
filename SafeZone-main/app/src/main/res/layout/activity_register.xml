@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3282B8"
+    android:background="@color/Primary"
     tools:context=".registerActivity">
 
 
@@ -23,14 +23,13 @@
         android:id="@+id/textView2"
         android:layout_width="262dp"
         android:layout_height="wrap_content"
-        android:background="#FE5957"
-        android:backgroundTint="#FE5957"
         android:backgroundTintMode="multiply"
         android:text="REGISTER"
         android:textAlignment="center"
-        android:textColor="#000"
+        android:textColor="@color/Secondary"
         android:textSize="24dp"
         android:textStyle="bold"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -140,16 +139,15 @@
         android:layout_width="262dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#EC0101  "
-        android:text="Submit"
+        android:background="@color/Secondary"
+        android:text="REGISTER"
+        android:textStyle="bold"
+        android:textSize="18dp"
         android:textAlignment="center"
-        android:textColor="#000"
+        android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rAge" />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

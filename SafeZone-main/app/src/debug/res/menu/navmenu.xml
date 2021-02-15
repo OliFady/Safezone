@@ -12,13 +12,6 @@
         android:title="See Places"
         />
     <item
-        android:id="@+id/pharmacy_search_activity"
-        android:icon="@drawable/ic_baseline_add_location_24"
-        android:title="Add Location"
-
-        />
-
-    <item
         android:id="@+id/displayPlaces"
         android:icon="@drawable/ic_baseline_call_end_24"
         android:title="Call Nearby Pharmacies" />

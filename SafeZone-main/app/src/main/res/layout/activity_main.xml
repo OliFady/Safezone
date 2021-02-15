@@ -4,15 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3282B8"
+    android:background="@color/Primary"
     tools:context=".MainActivity">
 
-    <pl.droidsonroids.gif.GifImageView
+    <TextView
         android:id="@+id/gifImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
-        android:src="@drawable/giphy"
+        android:fontFamily="@font/days_one"
+        android:text="SAFE ZONE"
+        android:textAlignment="center"
+        android:textColor="@color/Secondary"
+        android:textSize="34dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,9 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Swipe to login"
-
         android:textAlignment="center"
-        android:textColor="#D3D3D3"
+        android:textColor="@color/Secondary"
         android:textSize="24dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

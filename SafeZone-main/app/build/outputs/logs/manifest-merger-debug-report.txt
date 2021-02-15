@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
 MERGED from [com.google.android.libraries.maps:maps:3.1.0-beta] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\9b5702053f3c83ac1c453c1f6e5fb73e\jetified-maps-3.1.0-beta\AndroidManifest.xml:2:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\3144a40448927ef3210835a2f69512b9\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\5cdc1e5dadc61a7f834fac4c956aa1d5\material-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -70,20 +70,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Loai\.g
 MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\93c3187356f39596224bef2af99638d4\jetified-relinker-1.3.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\082638187433050f192db1cb35f85e47\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\a711ada4fba17dc4046dc8e998fd0615\jetified-transport-api-2.1.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
 	package
 		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
 		INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:1-73:12
 		INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:2:11-69
@@ -138,7 +138,7 @@ ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:16:22-66
 application
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:18:5-74:19
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:18:5-71:19
 MERGED from [com.google.android.libraries.maps:maps:3.1.0-beta] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\9b5702053f3c83ac1c453c1f6e5fb73e\jetified-maps-3.1.0-beta\AndroidManifest.xml:18:3-21:17
 MERGED from [com.google.android.libraries.maps:maps:3.1.0-beta] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\9b5702053f3c83ac1c453c1f6e5fb73e\jetified-maps-3.1.0-beta\AndroidManifest.xml:18:3-21:17
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Loai\.gradle\caches\transforms-2\files-2.1\5cdc1e5dadc61a7f834fac4c956aa1d5\material-1.2.1\AndroidManifest.xml:22:5-20
@@ -206,65 +206,53 @@ ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:38:13-43
 activity#com.example.safezone.MapsActivity
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:41:9-44:68
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:41:9-45:15
 	android:label
 		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:44:13-56
 	android:theme
 		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:42:13-69
 	android:name
 		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:43:13-41
-activity#com.example.safezone.displayPlaces
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:45:9-47:15
-	android:theme
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:46:13-69
-	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:45:19-48
-activity#com.example.safezone.pharmacy_search_activity
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:48:9-49:71
-	android:theme
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:49:13-69
-	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:48:19-59
 activity#com.example.safezone.HomePage
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:50:9-52:15
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:46:9-48:15
 	android:theme
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:51:13-69
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:47:13-69
 	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:50:19-43
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:46:19-43
 activity#com.example.safezone.registerActivity
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:53:9-55:15
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:49:9-51:15
 	android:theme
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:54:13-69
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:50:13-69
 	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:53:19-51
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:49:19-51
 activity#com.example.safezone.loginActivity
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:56:9-58:15
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:52:9-54:15
 	android:theme
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:57:13-69
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:53:13-69
 	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:56:19-48
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:52:19-48
 activity#com.example.safezone.MainActivity
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:59:9-73:20
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:55:9-70:20
 	android:theme
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:60:13-69
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:56:13-69
 	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:59:19-47
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:55:19-47
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:64:13-66:73
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:62:13-64:73
 	android:value
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:66:17-70
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:64:17-70
 	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:65:17-62
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:63:17-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:68:13-72:29
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:65:13-69:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:69:17-69
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:69:25-66
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:66:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:71:17-77
+ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:68:17-77
 	android:name
-		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:71:27-74
+		ADDED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml:68:27-74
 uses-sdk
 INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Loai\Documents\SafeZone-main\SafeZone-main\app\src\main\AndroidManifest.xml

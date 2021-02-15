@@ -46,11 +46,10 @@ public class locationListAdapter extends RecyclerView.Adapter<locationListAdapte
         locationList obj = LocationList.get(position);
         holder.locationName.setText(obj.getLocationName());
         holder.visitorsCounter.setText(obj.getVisitorsCounter());
+        holder.positiveVisitorsCounter.setMax(Integer.parseInt(obj.getPositiveVisitorsCounter())+Integer.parseInt(obj.getVisitorsCounter()));
         holder.positiveVisitorsCounter.setProgress(Integer.parseInt(obj.getPositiveVisitorsCounter()));
         holder.positiveVisitorsCounterNumber.setText(obj.getPositiveVisitorsCounter());
     }
-
-
 
     @Override
     public int getItemCount() {

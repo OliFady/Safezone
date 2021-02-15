@@ -1984,7 +1984,6 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
-drawable _296950_avatar_business_face_people_icon_people_icon_png_512_512_preview
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -2073,6 +2072,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable actionbar
 drawable ainshams
+drawable avatar_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
@@ -2085,7 +2085,6 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable call_now_style
-drawable cfc
 drawable circle
 drawable citystars
 drawable client_injected_default_cap
@@ -2118,7 +2117,6 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable elezaby
 drawable ezzeldin2
-drawable giphy
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gpssss
@@ -2126,7 +2124,6 @@ drawable ic_add_location
 drawable ic_baseline_add_location_24
 drawable ic_baseline_call_end_24
 drawable ic_baseline_coronavirus_24
-drawable ic_baseline_coronavirus_25
 drawable ic_baseline_emoji_transportation_24
 drawable ic_baseline_gps_fixed_24
 drawable ic_baseline_home_24
@@ -2139,7 +2136,6 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_safe_zone
-drawable ic_virus
 drawable main_icon
 drawable maps_blue_dot
 drawable maps_btn_left
@@ -2312,6 +2308,7 @@ id actionbar
 id actions
 id activity_chooser_view_content
 id add
+id addLocation
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2329,7 +2326,6 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id backButton
 id barrier
 id base_compass_button
 id baseline
@@ -2366,12 +2362,10 @@ id clip_vertical
 id collapseActionView
 id compass_container
 id confirm_button
-id constraintLayout
 id container
 id content
 id contentPanel
 id coordinator
-id coronaIcon
 id cos
 id custom
 id customPanel
@@ -2433,6 +2427,7 @@ id floating_crosshairs
 id floating_pin_anchor
 id floating_pin_image
 id forever
+id fragment_container
 id fragment_container_view_tag
 id frameLayout
 id ghost_view
@@ -2554,7 +2549,6 @@ id off
 id on
 id on_map_directions_button
 id on_map_secondary_action_button_container
-id order
 id outline
 id packed
 id page
@@ -2853,6 +2847,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout home_fragment
 layout location_info_list
 layout maps_fragment
 layout mtrl_alert_dialog

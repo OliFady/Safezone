@@ -15,13 +15,7 @@
     android:useLevel="false"
     android:angle="0"
     android:endColor="#EC0101"
-    android:startColor="@color/teal_700"
+    android:startColor="@color/light_blue"
     />
     </shape>
-
-
-
-
-
-
 </rotate>
