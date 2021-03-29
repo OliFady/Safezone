@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="15dp"
+    android:paddingBottom="15dp"
+    app:cardCornerRadius="20dp"
+    android:paddingTop="20dp"
+    android:id="@+id/cardList"
+    app:cardBackgroundColor="@color/black"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="150dp"
+        android:paddingStart="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="Negative Visitors Counter: "
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/visitorsCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2.5dp"
+            android:text="15"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location Address:"
+            android:paddingTop="2.5dp"
+            android:paddingBottom="2.5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/locationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City Stars Mall"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/positiveVisitorsCounter"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle"
+        android:indeterminate="false"
+        android:progress="40"
+        android:progressDrawable="@drawable/progress" />
+    <TextView
+        android:id="@+id/positiveVisitorsCounterNumber"
+        android:layout_width="68dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:text="40"
+        android:layout_marginStart="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+</FrameLayout>
+</androidx.cardview.widget.CardView>
