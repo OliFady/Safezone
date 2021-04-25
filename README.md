@@ -7,7 +7,9 @@ If unfortunately  you tested positive for corona virus other users will see on t
 Also you can search for any pharmacy you want and by single click call them to know tips for covid 19 treatmen . Lastly you can search the map for nearby pharmacies .
 
 Java 
+
 Firebase Database 
+
 Google Maps Api 
                                  
 # ScreenShots 
