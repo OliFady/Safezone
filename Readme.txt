@@ -6,3 +6,6 @@ this place and every place you add also . If unfortunately  you tested positive 
 other users will see on the app that this place one of it's visitors became positive  and self-quarintine themselves .
  Also you can search for any pharmacy you want and by single click call them to know tips for covid 19 treatmen . 
 Lastly you can search the map for nearby pharmacies .
+
+
+![WhatsApp Image 2021-04-16 at 7 28 15 PM (1)](https://user-images.githubusercontent.com/60134186/115992870-2f489a80-a5d0-11eb-8e59-462a5deecab5.jpeg)
