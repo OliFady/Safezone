@@ -1,4 +1,4 @@
- SafeZone
+# Gym-Mangagment-System
 Safe Zone app is offered by Covid -19 Hereos team. SafeZone app  tries to solve  the most important pandamic issue
  which the Corona outbreak speed . Everyone  has daily routine of visiting someplaces such as work , coffee.. etc ,
  From there you are infected . So by going anywhere  you just open Safe Zone and It will save that you visited 
