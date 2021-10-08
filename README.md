@@ -12,7 +12,3 @@ Firebase Database
 
 Google Maps Api 
                                  
-# ScreenShots 
-https://user-images.githubusercontent.com/60134186/115992997-de857180-a5d0-11eb-9cfc-7e33ac96898a.jpeg
-https://user-images.githubusercontent.com/60134186/115993041-1b516880-a5d1-11eb-895a-0f3ad3c3473c.jpeg
-
